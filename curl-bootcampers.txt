@@ -1,0 +1,14 @@
+curl --location --request GET 'http://localhost:8080/bootcampers' \
+--header 'Content-Type: application/json' \
+--data '{
+    "name": "fredy",
+    "value": 2.0
+}'
+
+
+curl --location 'http://localhost:8080/bootcampers' \
+--header 'Content-Type: application/json' \
+--data '{
+    "name": "fredy",
+    "value": 4
+}'

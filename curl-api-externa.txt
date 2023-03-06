@@ -1,0 +1,9 @@
+curl --location 'https://reqres.in/api/users'
+
+
+curl --location 'https://reqres.in/api/users' \
+--header 'Content-Type: application/json' \
+--data '{
+    "name": "morpheus",
+    "job": "leader"
+}'
